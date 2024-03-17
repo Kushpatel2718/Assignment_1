@@ -1,0 +1,343 @@
+.root {
+  background-color: hsl(0, 0%, 0%);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  content: "";
+}
+.headers {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .navigation {
+    display: flex;
+    gap: 25px;
+    div:hover {
+      text-decoration: underline;
+      color: #0ee2bc;
+    }
+  }
+  .buttons-1 {
+    font-size: 12px;
+    color: #dddede;
+    border: 2px solid #0ee2bc;
+    padding: 5px;
+    margin: 5px;
+  }
+  color: azure;
+  padding: 15px;
+
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.part-1 {
+  background-image: url(../public/images/istockphoto-1281301492-612x612.jpg);
+  padding-left: 155px;
+  padding-top: 100px;
+  display: flex;
+  flex-grow: initial;
+  color: white;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Work Sans", sans-serif;
+  position: relative;
+  height: 100%;
+
+  .left {
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    padding: 10px;
+    width: 600px;
+
+    background-color: rgba(255, 225, 225, 0.07);
+    .head-1 {
+      margin-top: 10px;
+      background: rgb(0, 210, 250);
+      background: linear-gradient(
+        90deg,
+        rgba(0, 210, 250, 1) 15%,
+        rgba(0, 255, 111, 0.9971638313528537) 30%
+      );
+      -webkit-background-clip: text; /* For Safari */
+      background-clip: text;
+      color: transparent; /* Make the text transparent */
+      font-size: 16px;
+      font-weight: bold;
+    }
+    .head-2 {
+      color: white;
+      font-size: 49px;
+    }
+    .head-3 {
+      margin-top: 25px;
+      color: #97aaad;
+      font-size: 13px;
+    }
+    .buttons-1 {
+      font-size: 12px;
+      color: #dddede;
+      border: 2px solid #0ee2bc;
+      padding: 5px;
+      margin: 5px;
+    }
+    .sub {
+      padding-top: 50px;
+    }
+  }
+  .right {
+    width: 600px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+
+    .heading-1 {
+      color: white;
+      font-size: 17px;
+      font-weight: bold;
+      border: 1px solid rgba(255, 255, 255, 0.5);
+      padding: 8px;
+    }
+    .img-head {
+      display: flex;
+      height: 30px;
+      .message-head {
+        font-size: 13px;
+        color: white;
+        font-weight: bold;
+        padding: 10px;
+      }
+    }
+
+    .message {
+      font-size: 12px;
+      color: #86878b;
+      padding-left: 35px;
+    }
+    .heading-2 {
+      color: #86878b;
+      font-size: 17px;
+      margin-top: 75px;
+      padding-top: 75px;
+      border: 1px solid rgba(255, 255, 255, 0.5);
+      background-color: transparent;
+      width: 600px;
+    }
+  }
+}
+.part-1-1 {
+  background-color: black;
+  .bottom-left {
+    color: #97aaad;
+    margin-left: 155px;
+    font-size: 51px;
+    padding: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+  }
+}
+.part-2-1 {
+  padding-left: 155px;
+
+  color: white;
+  .main {
+    display: flex;
+    flex-grow: 1;
+    margin-left: auto;
+    .card {
+      display: flex;
+      align-items: center;
+      padding-left: 100px;
+      padding-right: 96px;
+      border: 1px solid rgba(255, 255, 255, 0.5);
+      .download {
+        font-size: 61px;
+      }
+      .desc {
+        color: #797b7e;
+      }
+    }
+  }
+}
+
+.part-3 {
+  padding-left: 250px;
+  margin-top: 100px;
+
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+
+  .head-1 {
+    background: linear-gradient(
+      90deg,
+      rgba(0, 210, 250, 1) 1%,
+      rgba(0, 255, 111, 0.9971638313528537) 10%
+    );
+    -webkit-background-clip: text; /* For Safari */
+    background-clip: text;
+    color: transparent; /* Make the text transparent */
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .head-2 {
+    color: white;
+    font-size: 49px;
+  }
+  .sub-class {
+    display: flex;
+    .head-3 {
+      color: #97aaad;
+      font-size: 15px;
+      font-family: "Arial", "Helvetica", sans-serif;
+    }
+    .part-1-1 {
+      background-color: black;
+      .bottom-right {
+        color: #97aaad;
+        margin-left: 450px;
+        font-size: 51px;
+        padding: 5px;
+        border: 1px solid rgba(255, 255, 255, 0.5);
+      }
+    }
+  }
+}
+
+.main-1 {
+  display: flex;
+  gap: 25px;
+
+  .card-1 {
+    margin-top: 20px;
+    margin-left: 250px;
+    padding-right: 50px;
+    max-width: 550px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+
+    .head {
+      padding: 2.5px;
+      padding-left: 25px;
+      padding-right: 25px;
+      padding-bottom: 5px;
+      color: white;
+      font-size: 32px;
+      font-weight: bold;
+      margin-left: 50px;
+      border: 1px solid rgba(255, 255, 255, 0.5);
+    }
+    .desc {
+      padding-top: 20px;
+      color: #cacaca;
+      margin-left: 50px;
+      font-size: 18px;
+    }
+    .image {
+      padding-top: 20px;
+      margin-right: auto;
+      padding-left: 400px;
+      height: 125px;
+    }
+  }
+
+  .card-2 {
+    margin-top: 20px;
+    padding-right: 50px;
+    max-width: 550px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+
+    .head {
+      padding: 2.5px;
+      padding-left: 25px;
+      padding-right: 25px;
+      padding-bottom: 5px;
+      color: white;
+      font-size: 32px;
+      font-weight: bold;
+      margin-left: 50px;
+      border: 1px solid rgba(255, 255, 255, 0.5);
+    }
+    .desc {
+      padding-top: 20px;
+      color: #cacaca;
+      margin-left: 50px;
+      font-size: 18px;
+    }
+    .image {
+      padding-top: 20px;
+      margin-right: auto;
+      padding-left: 400px;
+      height: 125px;
+    }
+  }
+}
+
+.Part-4 {
+  padding-left: 250px;
+  margin-top: 100px;
+
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+
+  .top-right {
+    color: #97aaad;
+    margin-left: 1000px;
+    font-size: 51px;
+    padding: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+  }
+  .head-1 {
+    background: linear-gradient(
+      90deg,
+      rgba(0, 210, 250, 1) 1%,
+      rgba(0, 255, 111, 0.9971638313528537) 10%
+    );
+    -webkit-background-clip: text; /* For Safari */
+    background-clip: text;
+    color: transparent; /* Make the text transparent */
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .head-2 {
+    color: white;
+    font-size: 49px;
+  }
+}
+
+.main-2 {
+  padding-left: 250px;
+  margin-top: 100px;
+  max-width: 1350px;
+  padding-bottom: 50px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    40deg,
+    rgba(0, 0, 0, 0.9971638313528537) 42%,
+    rgba(7, 54, 105, 1) 98%
+  );
+  .head {
+    margin-top: 25px;
+    color: white;
+    font-size: 18px;
+  }
+  .desc {
+    max-width: 1000px;
+    color: #dededf;
+    font-size: 14px;
+  }
+}
+
+.part-5 {
+  padding-left: 250px;
+  margin-top: 100px;
+  .head-1 {
+    background: linear-gradient(
+      90deg,
+      rgba(0, 210, 250, 1) 1%,
+      rgba(0, 255, 111, 0.9971638313528537) 10%
+    );
+    -webkit-background-clip: text; /* For Safari */
+    background-clip: text;
+    color: transparent; /* Make the text transparent */
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .head-2 {
+    color: white;
+    font-size: 49px;
+  }
+}
